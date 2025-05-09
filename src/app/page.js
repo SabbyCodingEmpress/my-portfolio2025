@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client';
 
 import Image from "next/image";
@@ -39,7 +40,7 @@ export default function Home() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-950">About Me</h2>
               <p className="text-gray-600 mb-6">
-                I'm a passionate developer. a love for creating
+                I&apos;m a passionate developer. a love for creating
                 functional digital experiences. With expertise in modern web
                 technologies, I bring ideas to life through clean code and creative solutions.
               </p>
@@ -91,9 +92,9 @@ export default function Home() {
       {/* Contact Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-6 text-gray-950">Let's Work Together</h2>
+          <h2 className="text-4xl font-bold mb-6 text-gray-950">Let&apos;s Work Together</h2>
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-            I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+            I&apos;m always open to discussing new projects, creative ideas or opportunities to be part of your visions.
           </p>
           <button className="bg-orange-600 text-white px-8 py-3 rounded-full hover:bg-orange-700 transition-colors">
             Get in Touch
