@@ -1,8 +1,3 @@
-//**  @type {import('next').NextConfig} */
-//const nextConfig = {};
-
-//export default nextConfig;
-
 
 import path from 'path';
 
@@ -12,7 +7,7 @@ const nextConfig = {
   // No need for webpack config unless you have special needs
   experimental: {
     turbo: {
-      // Optional: Explicitly define aliases here if needed
+      turbo: false,
       resolveAlias: {
         '@': './src',
         '@/components': './src/components'
