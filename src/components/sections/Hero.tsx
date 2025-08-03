@@ -11,7 +11,7 @@ export default function Hero() {
             My Portfolio
           </h1>
           <p className="inline-block px-4 py-2 text-white font-bold text-2xl">
-            Hello I'm Zah! In the GREAT wise words of 50cent  - If I can't do it, HOMIE.. It can't be done.I'M GONNA TAKE IT TO THE TOP!
+            Hello I&rsquo;m Zah! In the GREAT wise words of 50cent  - If I can&rsquo;t do it, HOMIE.. It can&rsquo;t be done.I&rsquo;M GONNA TAKE IT TO THE TOP!
           </p>
           {/* <div className="flex gap-4">
             <button className="bg-black text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-gray-800 transition">

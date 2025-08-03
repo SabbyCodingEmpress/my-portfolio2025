@@ -27,16 +27,16 @@ export default function About() {
                 👋 Get to know me
               </div>
               <h2 className="text-4xl font-bold text-gray-800 leading-tight">
-                I'm a passionate developer who loves creating 
+                I&rsquo;m a passionate developer who loves creating 
                 <span className="text-white"> amazing experiences</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
                 With a strong foundation in modern web technologies, I specialize in building 
-                responsive, user-friendly applications that solve real-world problems. I'm 
+                responsive, user-friendly applications that solve real-world problems. I&rsquo;m 
                 constantly learning and staying up-to-date with the latest industry trends.
               </p>
               <p className="text-gray-600">
-                When I'm not coding, you'll find me exploring new technologies, contributing 
+                When I&rsquo;m not coding, you&rsquo;ll find me exploring new technologies, contributing 
                 to open-source projects, or enjoying a good cup of coffee while brainstorming 
                 my next creative project.
               </p>
@@ -99,7 +99,7 @@ export default function About() {
         {/* Call to Action */}
         <div className="mt-16 text-center">
           <p className="text-lg text-gray-600 mb-6">
-            Interested in working together? Let's create something amazing!
+            Interested in working together? Let&rsquo;s create something amazing!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="px-8 py-3 bg-black-600 text-white rounded-lg font-medium hover:bg-gray -700 transition-colors">
