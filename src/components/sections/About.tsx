@@ -1,116 +1,82 @@
-'use client'
-
-export default function About() {
+export default function AboutSection() {
   const skills = [
-    "Fullstack Development",
-    "React & Next.js",
-    "JavaScript/TypeScript",
-    "UI/UX Design",
-    "Node.js",
-    "Database Design"
-  ]
-
-  // const stats = [
-  //   { number: "3+", label: "Years Experience" },
-  //   { number: "50+", label: "Projects Completed" },
-  //   { number: "100%", label: "Client Satisfaction" }
-  // ]
+    'React', 'Node.js', 'MongoDB', 'Express', 
+    'JavaScript', 'TypeScript', 'Tailwind CSS', 'Git'
+  ];
 
   return (
-    <section className="py-20 bg-black from-gray-50 to-blue-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Left Column - Content */}
-          <div className="space-y-8">
-            <div className="space-y-4">
-              <div className="inline-block px-4 py-2 bg-blue-100 text-gray-800 rounded-full text-sm font-bold">
-                👋 Get to know me
-              </div>
-              <h2 className="text-4xl font-bold text-gray-800 leading-tight">
-                I&rsquo;m a passionate developer who loves creating 
-                <span className="text-white"> amazing experiences</span>
-              </h2>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                With a strong foundation in modern web technologies, I specialize in building 
-                responsive, user-friendly applications that solve real-world problems. I&rsquo;m 
-                constantly learning and staying up-to-date with the latest industry trends.
-              </p>
-              <p className="text-gray-600">
-                When I&rsquo;m not coding, you&rsquo;ll find me exploring new technologies, contributing 
-                to open-source projects, or enjoying a good cup of coffee while brainstorming 
-                my next creative project.
-              </p>
-            </div>
-
-            {/* Skills Grid */}
-            <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-gray-700">Core Skills</h3>
-              <div className="grid grid-cols-2 gap-3">
-                {skills.map((skill, index) => (
-                  <div key={index} className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                    <span className="text-gray-700">{skill}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 pt-6 border-t border-gray-200">
-              {/* {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-2xl font-bold text-white">{stat.number}</div>
-                  <div className="text-sm text-gray-500">{stat.label}</div>
-                </div>
-              ))} */}
-            </div>
-          </div>
-
-          {/* Right Column - Image */}
-          <div className="relative">
-            {/* Background decoration */}
-            <div className="absolute -inset-4">
-              <div className="w-full h-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-2xl blur-2xl opacity-20 animate-pulse"></div>
-            </div>
-            
-            {/* Image container */}
-            <div className="relative">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <img 
-                  src="/images/about-image.jpg" 
-                  alt="About Me" 
-                  className="w-full h-[500px] object-cover"
-                />
-                {/* Overlay gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-              </div>
-              
-              {/* Floating element */}
-              <div className="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-lg p-4 border">
-                <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                  <span className="text-sm font-medium text-gray-700">Available for work</span>
-                </div>
-              </div>
-            </div>
-          </div>
+    <section className="py-24 bg-white">
+      <div className="max-w-4xl mx-auto px-6">
+        {/* Header */}
+        <div className="mb-16">
+          <h2 className="text-5xl lg:text-6xl font-bold text-black mb-6">
+            About Me
+          </h2>
+          <div className="w-20 h-1 bg-black"></div>
         </div>
 
-        {/* Call to Action */}
-        <div className="mt-16 text-center">
-          <p className="text-lg text-gray-600 mb-6">
-            Interested in working together? Let&rsquo;s create something amazing!
+        {/* Main Content - Centered */}
+        <div className="space-y-8">
+          <p className="text-2xl text-gray-800 leading-relaxed font-light">
+            I'm a developer focused on creating clean, functional web applications. 
+            My work centers around the MERN stack, building solutions that are both 
+            practical and thoughtfully designed.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-3 bg-black-600 text-white rounded-lg font-medium hover:bg-gray -700 transition-colors">
-              Get In Touch
+          
+          <p className="text-lg text-gray-600 leading-relaxed">
+            I approach each project with attention to detail and a commitment to 
+            writing maintainable code. Whether it's frontend interfaces or backend 
+            systems, I aim to deliver work that meets real user needs.
+          </p>
+
+          {/* Stats or Highlights */}
+          <div className="grid grid-cols-3 gap-8 py-12 border-y border-gray-200">
+            <div>
+              <div className="text-4xl font-bold text-black mb-2">50+</div>
+              <div className="text-sm text-gray-600 uppercase tracking-wider">Projects</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold text-black mb-2">3+</div>
+              <div className="text-sm text-gray-600 uppercase tracking-wider">Years Experience</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold text-black mb-2">100%</div>
+              <div className="text-sm text-gray-600 uppercase tracking-wider">Client Satisfaction</div>
+            </div>
+          </div>
+
+          {/* Skills */}
+          <div className="pt-6">
+            <p className="text-sm text-gray-500 mb-4 uppercase tracking-wider">Technologies</p>
+            <div className="flex flex-wrap gap-3">
+              {skills.map((skill, index) => (
+                <span 
+                  key={index}
+                  className="px-4 py-2 bg-gray-100 text-gray-800 text-sm rounded-md hover:bg-gray-200 transition-colors"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Availability Badge */}
+          <div className="flex items-center gap-2 text-sm text-gray-600 pt-4">
+            <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+            Currently available for projects
+          </div>
+
+          {/* CTA Buttons */}
+          <div className="flex gap-4 pt-8">
+            <button className="px-8 py-3 bg-black text-white rounded-md font-medium hover:bg-gray-800 transition-colors">
+              Contact Me
             </button>
-            <button className="px-8 py-3 border border-gray-300 text-gray-700 rounded-lg font-medium hover:bg-gray-50 transition-colors">
-              View My Work
+            <button className="px-8 py-3 border-2 border-black text-black rounded-md font-medium hover:bg-black hover:text-white transition-all">
+              Download CV
             </button>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
