@@ -71,16 +71,6 @@ export default function Footer() {
               </li>
               <li>
                 <a 
-                  href="https://twitter.com/yourusername" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Twitter
-                </a>
-              </li>
-              <li>
-                <a 
                   href="mailto:hello@youremail.com"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
