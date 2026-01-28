@@ -1,5 +1,3 @@
-'use client'
-
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center bg-black px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
