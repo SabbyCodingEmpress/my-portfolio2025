@@ -14,7 +14,7 @@ export default function Cta() {
                 in mind?
               </h2>
               <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-                Let's discuss how we can bring your ideas to life
+                Let&apos;s discuss how we can bring your ideas to life
               </p>
             </div>
   

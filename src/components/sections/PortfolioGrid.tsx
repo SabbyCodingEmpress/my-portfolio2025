@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const portfolioItems = [
   {
     title: 'E-Commerce Platform',
@@ -55,7 +57,7 @@ export default function PortfolioGrid() {
             >
               {/* Image Container */}
               <div className="aspect-[16/10] overflow-hidden bg-gray-800">
-                <img
+                <Image
                   src={item.image}
                   alt={item.title}
                   className="w-full h-full object-cover opacity-60 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500"

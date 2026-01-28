@@ -18,14 +18,14 @@ export default function AboutSection() {
         {/* Main Content - Centered */}
         <div className="space-y-8">
           <p className="text-2xl text-gray-800 leading-relaxed font-light">
-            I'm a developer focused on creating clean, functional web applications. 
+            I&apos;m a developer focused on creating clean, functional web applications. 
             My work centers around the MERN stack, building solutions that are both 
             practical and thoughtfully designed.
           </p>
           
           <p className="text-lg text-gray-600 leading-relaxed">
             I approach each project with attention to detail and a commitment to 
-            writing maintainable code. Whether it's frontend interfaces or backend 
+            writing maintainable code. Whether it&apos;s frontend interfaces or backend 
             systems, I aim to deliver work that meets real user needs.
           </p>
 

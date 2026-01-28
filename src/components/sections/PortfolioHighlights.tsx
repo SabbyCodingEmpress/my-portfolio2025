@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const highlights = [
     {
         title: 'Modern E-commerce Store',
@@ -30,7 +32,7 @@ export default function PortfolioHIghlights() {
                         key={index}
                         className="flex flex-col md:flex-row items-center gap-8"
                     >
-                        <img
+                        <Image 
                             src={project.image}
                             alt={project.title}
                             className="w-full md:w-1/2 h-64 object-cover rounded-lg shadow"

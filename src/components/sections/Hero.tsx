@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center bg-black px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
@@ -8,7 +10,7 @@ export default function Hero() {
           <div className="order-1 lg:order-1 relative w-full">
             <div className="relative w-full aspect-[4/3] sm:aspect-[3/2] lg:aspect-[4/5] rounded-2xl lg:rounded-3xl overflow-hidden shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-tr from-black/60 via-black/20 to-transparent z-10" />
-              <img 
+              <Image
                 src="/images/hero.jpg" 
                 alt="Hero Visual" 
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-110" 
@@ -44,7 +46,7 @@ export default function Hero() {
 
             {/* Description */}
             <p className="text-gray-400 text-sm sm:text-base lg:text-lg leading-relaxed max-w-xl">
-              Hola, I'm <span className="text-white font-semibold">Zah</span>! 
+              Hola, I&apos;m <span className="text-white font-semibold">Zah</span>! 
               Developer with a couple years of experience crafting web applications 
               with the MERN stack.
             </p>
