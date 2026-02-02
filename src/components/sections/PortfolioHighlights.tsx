@@ -35,6 +35,8 @@ export default function PortfolioHIghlights() {
                         <Image 
                             src={project.image}
                             alt={project.title}
+                            width={600}
+                            height={400}
                             className="w-full md:w-1/2 h-64 object-cover rounded-lg shadow"
                         />
 

@@ -1,4 +1,7 @@
+'use client';
+
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -11,7 +14,9 @@ export default function Hero() {
             <div className="relative w-full aspect-[4/3] sm:aspect-[3/2] lg:aspect-[4/5] rounded-2xl lg:rounded-3xl overflow-hidden shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-tr from-black/60 via-black/20 to-transparent z-10" />
               <Image
-                src="/images/hero.jpg" 
+                src="/images/hero.jpg"
+                width={500}
+                height={500}
                 alt="Hero Visual" 
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-110" 
               />
@@ -61,7 +66,10 @@ export default function Hero() {
                   </svg>
                 </span>
               </button>
-              <button className="border border-gray-700 text-white px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base font-semibold hover:border-gray-500 hover:bg-gray-900/50 transition-all duration-300 hover:scale-105">
+              <button 
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
+            }
+              className="border border-gray-700 text-white px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base font-semibold hover:border-gray-500 hover:bg-gray-900/50 transition-all duration-300 hover:scale-105">
                 Get in Touch
               </button>
             </div>

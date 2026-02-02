@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Cta() {
     return (
       <section className="py-32 bg-black relative overflow-hidden">
@@ -20,15 +22,13 @@ export default function Cta() {
   
             {/* CTA Button */}
             <div className="pt-6">
-              <a 
+              <Link 
                 href="/contact"
                 className="inline-block px-12 py-4 bg-white text-black text-lg font-semibold rounded-full hover:bg-gray-200 transition-all duration-300 hover:scale-105 shadow-lg"
               >
                 Get In Touch
-              </a>
+              </Link>
             </div>
-  
-           
           </div>
         </div>
       </section>

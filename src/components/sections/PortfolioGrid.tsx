@@ -60,6 +60,8 @@ export default function PortfolioGrid() {
                 <Image
                   src={item.image}
                   alt={item.title}
+                  width={800}
+                  height={500}
                   className="w-full h-full object-cover opacity-60 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500"
                 />
               </div>
