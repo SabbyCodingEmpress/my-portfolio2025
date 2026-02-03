@@ -56,7 +56,7 @@ export default function Hero() {
               with the MERN stack.
             </p>
 
-            {/* CTA Buttons */}
+            {/* CTA Buttons
             <div className="flex flex-col xs:flex-row gap-3 sm:gap-4 pt-2 sm:pt-4">
               <button className="group bg-white text-black px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base font-semibold hover:bg-gray-100 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-white/20">
                 <span className="flex items-center justify-center gap-2">
@@ -66,13 +66,12 @@ export default function Hero() {
                   </svg>
                 </span>
               </button>
-              <button 
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
-            }
-              className="border border-gray-700 text-white px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base font-semibold hover:border-gray-500 hover:bg-gray-900/50 transition-all duration-300 hover:scale-105">
-                Get in Touch
-              </button>
-            </div>
+              <Link
+                    href="/contact"
+                    className="border border-gray-700 text-white px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base font-semibold hover:border-gray-500 hover:bg-gray-900/50 transition-all duration-300 hover:scale-105">
+                  Get in Touch
+              </Link>
+            </div> */}
 
             {/* Stats/Tags */}
             <div className="flex flex-wrap gap-4 sm:gap-6 pt-4 sm:pt-6 border-t border-gray-800">
