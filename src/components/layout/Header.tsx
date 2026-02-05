@@ -28,7 +28,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/#portfolio" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="/#portfolio-grid" className="text-gray-400 hover:text-white transition-colors">
                 Projects
               </Link>
             </li>
@@ -91,14 +91,14 @@ export default function Header() {
               About
             </Link>
             <Link
-              href="/#portfolio"
+              href="/#portfolio-grid"
               className="block text-gray-400 hover:text-white transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
               Projects
             </Link>
             <Link
-              href="/contact"
+              href="/#contact"
               className="block w-full text-center px-6 py-3 bg-white text-black rounded-full font-semibold hover:bg-gray-200 transition-all mt-4"
               onClick={() => setIsOpen(false)}
             >

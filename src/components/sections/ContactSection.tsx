@@ -1,4 +1,5 @@
 'use client';
+
 import Contact from "@/app/contact/page";
 
 export default function ContactSection() {
@@ -55,8 +56,7 @@ export default function ContactSection() {
 
             <button
               type="submit"
-              className="w-full bg-indigo-600 hover:bg-indigo-700 transition text-white font-medium py-3 rounded-lg"
-            >
+              className="w-full bg-indigo-600 hover:bg-indigo-700 transition text-white font-medium py-3 rounded-lg">
               Send Message
             </button>
           </form>
